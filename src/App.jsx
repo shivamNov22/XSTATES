@@ -148,10 +148,8 @@ function App() {
 
       {selectedCountry && selectedState && selectedCity && (
         <h2 style={{ marginTop: "30px" }}>
-          You selected{" "}
-          <strong>
-            {selectedCity}, {selectedState}, {selectedCountry}
-          </strong>
+          <strong>You selected {selectedCity}</strong>, {selectedState},{" "}
+          {selectedCountry}
         </h2>
       )}
     </div>
